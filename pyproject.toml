@@ -1,13 +1,20 @@
 [project]
 name = "fea-study"
 version = "0.1.0"
-description = "Add your description here"
+description = "Collection of code developed in Python to study Finite Element Analysis"
 readme = "README.md"
 authors = [
     { name = "smwrdthing", email = "amiraslanov16@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+    "scipy>=1.18.1",
+    "sympy>=1.14.0",
+]
 
 [project.scripts]
 fea-study = "fea_study:main"
